@@ -4,8 +4,8 @@
 
 #include <lemon/smart_graph.h>
 #include <lemon/lgf_reader.h>
-#include <lemon/network_simplex.h>
 #include <lemon/cycle_canceling.h>
+#include <lemon/capacity_scaling.h>
 #include <lemon/dimacs.h>
 
 using namespace lemon;
@@ -40,31 +40,40 @@ int main(int argc, char** argv){
 	printf("Running Cycle Canceling...\n");
 	/* Initialize CycleCanceling algorithm object */
 	CycleCanceling<SmartDigraph> cs(g);
+
 	/* Running the algorithm */
+	/* Measuring the runtime in milliseconds */
+	auto begin = std::chrono::high_resolution_clock::now();
 	cs.lowerMap(lower).upperMap(capacity).costMap(cost).supplyMap(supply).run();
+	auto end = std::chrono::high_resolution_clock::now();
 	/* Print total flow cost */
 	printf("Total flow cost: %d\n\n", cs.totalCost<int>());
-	
-	/* Printing the network to standard output */
-	Node s, t;
-	cs.flowMap(flow);
-	digraphWriter(g).                  // write g to the standard output
-		attribute("problem","min").
-		nodeMap("supply", supply).     // write the supply to output
-		arcMap("capacity", capacity).  // write cap into 'capacity'
-		arcMap("cost", cost).          // write 'cost' for for arcs
-		arcMap("flow", flow).          // write 'flow' for for arcs
-		run();
+	printf("The runtime of Cycle Canceling algorithm id %lld ms.\n", 
+							std::chrono::duration_cast<std::chrono::milliseconds>(end-begin).count());
 
+	/* Uncomment the following code to display the whole graph */
+	/* Printing the network to standard output */
+	// cs.flowMap(flow);
+	// digraphWriter(g).                  // write g to the standard output
+	// 	attribute("problem","min").
+	// 	nodeMap("supply", supply).     // write the supply to output
+	// 	arcMap("capacity", capacity).  // write cap into 'capacity'
+	// 	arcMap("cost", cost).          // write 'cost' for for arcs
+	// 	arcMap("flow", flow).          // write 'flow' for for arcs
+	// 	run();
 
 	/* Another method to verify the solution */
-	/* Initialize NetworkSimplex algorithm object */
-	printf("\n\nRunning Network Simplex...\n");
-	NetworkSimplex<SmartDigraph> ns(g);
-	ns.lowerMap(lower).upperMap(capacity).costMap(cost).supplyMap(supply).run();
+	/* Initialize CapacityScaling algorithm object */
+	printf("\n\nRunning Capacity Scaling...\n");
+	CapacityScaling<SmartDigraph> capacityS(g);
+	begin = std::chrono::high_resolution_clock::now();
+	capacityS.lowerMap(lower).upperMap(capacity).costMap(cost).supplyMap(supply).run();
+	end = std::chrono::high_resolution_clock::now();
 
 	/* Print total flow cost */
-	printf("Total flow cost: %d\n\n", ns.totalCost());
+	printf("Total flow cost: %d\n\n", cs.totalCost());
+	printf("The runtime of Network Simplex algorithm id %lld ms.\n", 
+							std::chrono::duration_cast<std::chrono::milliseconds>(end-begin).count());
 
 	/* Print flow values on the arcs */
 	// printf("Flow values on arcs:\n");

@@ -1,7 +1,8 @@
 default_target: all
 
 CXX=g++
-CFLAGS=-Wall -Wextra -O3 -Wno-unused-local-typedef -Wno-unused-command-line-argument
+CFLAGS=-Wall -Wextra -Wno-unused-local-typedef -Wno-unused-command-line-argument
+CFLAGS+=-std=c++11
 LEMONFLAG=-lemon
 
 DEPS = 
