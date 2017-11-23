@@ -62,24 +62,5 @@ int main(int argc, char** argv){
 	// 	arcMap("flow", flow).          // write 'flow' for for arcs
 	// 	run();
 
-	/* Another method to verify the solution */
-	/* Initialize CapacityScaling algorithm object */
-	printf("\n\nRunning Capacity Scaling...\n");
-	CapacityScaling<SmartDigraph> capacityS(g);
-	begin = std::chrono::high_resolution_clock::now();
-	capacityS.lowerMap(lower).upperMap(capacity).costMap(cost).supplyMap(supply).run();
-	end = std::chrono::high_resolution_clock::now();
-
-	/* Print total flow cost */
-	printf("Total flow cost: %d\n\n", cs.totalCost());
-	printf("The runtime of Network Simplex algorithm id %lld ms.\n", 
-							std::chrono::duration_cast<std::chrono::milliseconds>(end-begin).count());
-
-	/* Print flow values on the arcs */
-	// printf("Flow values on arcs:\n");
-	// for (ArcIt a(g); a != INVALID; ++a) {
-	// 	printf("Arc %d: %d/%d\n", g.id(a), ns.flow(a), capacity[a]);
-	// }
-
 	return 0;
 }
