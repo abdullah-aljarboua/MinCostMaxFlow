@@ -1,17 +1,19 @@
 default_target: all
 
-CC=g++
-CFLAGS=-Wall -Wextra
+CXX=g++
+CFLAGS=-Wall -Wextra -O3 -Wno-unused-local-typedef -Wno-unused-command-line-argument
 LEMONFLAG=-lemon
 
 DEPS = 
 OBJ = cycle_canceling.o
+# FILE_NAME = 'data/example_input.ini'
+FILE_NAME = 'data/256_2048.ini'
 
 %.o: %.cc $(DEPS)
-	$(CC) -c -o $@ $< $(CFLAGS) $(LEMONFLAG)
+	$(CXX) -c -o $@ $< $(CFLAGS) $(LEMONFLAG)
 
 all: $(OBJ)
-	$(CC) -o a.out $^ $(CFLAGS) $(LEMONFLAG)
+	$(CXX) -o a.out $^ $(CFLAGS) $(LEMONFLAG)
 
 run:
 	./a.out $(FILE_NAME)
