@@ -1,0 +1,4 @@
+Handling the input file.
+
+1. Replace the id of source node to 0.
+2. Replace the id of sink node to (length - 1).
