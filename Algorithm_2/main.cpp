@@ -72,7 +72,7 @@ int minCostMaxflow(int st, int en, int &cost){
             edge[i^1].flow -= Min;
         }
         cost += dis[en] * Min;
-        printf("%d", cost);
+//        printf("%d\n", cost);
     }
     return flow;
 }
