@@ -72,13 +72,14 @@ int minCostMaxflow(int st, int en, int &cost){
             edge[i^1].flow -= Min;
         }
         cost += dis[en] * Min;
+        printf("%d", cost);
     }
     return flow;
 }
 int main(){
     FILE *fp;
     int i, j, k, cost, u, v, cap;
-    char filename[] = "/Users/peis/Google Drive/Course2017Fall/CS260/Alg2/Formatted_Data.txt";
+    char filename[] = "/Users/peis/Google Drive/Course2017Fall/CS260/Algorithm_2/Formatted_Data.txt";
     if((fp = fopen(filename,"r")) == NULL) //判断文件是否存在及可读
     {
         printf("error!");
@@ -92,10 +93,10 @@ int main(){
         addEdge(u, v, cap, cost);
         addEdge(v, u, cap, cost);
     }
-    addEdge(0, 1, 2, 0);
-    addEdge(n, n+1, 2, 0);
+//    addEdge(0, 1, 2, 0);
+//    addEdge(n, n+1, 2, 0);
     cost = 0;
-    minCostMaxflow(0, n+1, cost);
+    minCostMaxflow(0, n-1, cost);
     printf("%d\n", cost);
     return 0;
 }
