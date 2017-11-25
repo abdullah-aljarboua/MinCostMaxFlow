@@ -4,8 +4,8 @@
 #include <cmath>
 #include <algorithm>
 #include <fstream>
-#define MAXN 1003
-#define MAXM 40004
+#define MAXN 1000003
+#define MAXM 40000004
 using namespace std;
 const int INF = 0x3f3f3f3f;
 struct EDGE{
@@ -78,25 +78,31 @@ int minCostMaxflow(int st, int en, int &cost){
 }
 int main(){
     FILE *fp;
-    int i, j, k, cost, u, v, cap;
-    char filename[] = "/Users/peis/Google Drive/Course2017Fall/CS260/Algorithm_2/Formatted_Data.txt";
+    int i, j, k, cost, u, v, cap, source, sink, supply;
+    char filename[] = "/Users/peis/Google-Drive/Course2017Fall/CS260/Project/Data_Alg2/New_netgen_8_17_1.ini";
     if((fp = fopen(filename,"r")) == NULL) //判断文件是否存在及可读
     {
         printf("error!");
         return NULL;
     }
     fscanf(fp, "%d %d", &n, &m);
+    fscanf(fp, "%d%d%d", &source, &sink, &supply);
 //    scanf("%d%d", &n, &m);
     init();
-    for (i = 0; i < m+2; i++){
+    for (i = 0; i < m; i++){
         fscanf(fp, "%d%d%d%d", &u, &v, &cap, &cost);
         addEdge(u, v, cap, cost);
 //        addEdge(v, u, cap, cost);
     }
-//    addEdge(0, 1, 2, 0);
-//    addEdge(n, n+1, 2, 0);
+    addEdge(0, source, supply, 0);
+    addEdge(sink, sink+1, supply, 0);
     cost = 0;
-    minCostMaxflow(0, n-1, cost);
-    printf("%d\n", cost);
+
+    clock_t start, finish;
+    start = clock();
+    minCostMaxflow(0, sink+1, cost);
+    finish = clock();
+    printf( "Time: %f\n", (double)(finish - start)/CLOCKS_PER_SEC);
+    printf("Cost: %d\n", cost);
     return 0;
 }
