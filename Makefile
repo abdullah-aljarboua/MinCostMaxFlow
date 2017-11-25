@@ -8,7 +8,7 @@ LEMONFLAG=-lemon
 DEPS = 
 OBJ = cycle_canceling.o
 # FILE_NAME = 'data/example_input.ini'
-FILE_NAME = 'data/256_2048.ini'
+FILE_NAME = 'data/netgen_8_08_1.ini'
 
 %.o: %.cc $(DEPS)
 	$(CXX) -c -o $@ $< $(CFLAGS) $(LEMONFLAG)

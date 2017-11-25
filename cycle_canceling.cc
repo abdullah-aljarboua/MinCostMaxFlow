@@ -1,6 +1,7 @@
 #include <iostream>
 #include <fstream>
 #include <limits>
+#include <chrono>
 
 #include <lemon/smart_graph.h>
 #include <lemon/lgf_reader.h>
