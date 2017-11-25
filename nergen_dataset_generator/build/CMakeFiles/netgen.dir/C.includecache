@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Oped/Downloads/lemon-benchmark/index.c
+netgen.h
+/Users/Oped/Downloads/lemon-benchmark/netgen.h
+
+/Users/Oped/Downloads/lemon-benchmark/main.h
+
+/Users/Oped/Downloads/lemon-benchmark/netgen.c
+stdio.h
+-
+netgen.h
+/Users/Oped/Downloads/lemon-benchmark/netgen.h
+main.h
+/Users/Oped/Downloads/lemon-benchmark/main.h
+
+/Users/Oped/Downloads/lemon-benchmark/netgen.h
+stdlib.h
+-
+string.h
+-
+
+/Users/Oped/Downloads/lemon-benchmark/random.c
+

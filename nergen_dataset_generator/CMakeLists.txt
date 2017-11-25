@@ -1,0 +1,18 @@
+INCLUDE_DIRECTORIES(
+  # ${CMAKE_SOURCE_DIR}/tests
+  # ${CMAKE_BINARY_DIR}/src
+)
+
+LINK_DIRECTORIES(
+  # ${CMAKE_BINARY_DIR}/lemon
+)
+
+ADD_EXECUTABLE(netgen
+  main.cc netgen.c index.c random.c
+)
+
+SET_TARGET_PROPERTIES(netgen PROPERTIES COMPILE_DEFINITIONS "DIMACS")
+
+TARGET_LINK_LIBRARIES(netgen
+  lemon
+)
