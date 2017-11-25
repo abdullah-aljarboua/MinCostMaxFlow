@@ -47,10 +47,11 @@ int main(int argc, char** argv){
 	auto begin = std::chrono::high_resolution_clock::now();
 	cs.lowerMap(lower).upperMap(capacity).costMap(cost).supplyMap(supply).run();
 	auto end = std::chrono::high_resolution_clock::now();
+	long long total_time = std::chrono::duration_cast<std::chrono::milliseconds>(end-begin).count();
 	/* Print total flow cost */
 	printf("Total flow cost: %d\n\n", cs.totalCost<int>());
-	printf("The runtime of Cycle Canceling algorithm id %lld ms.\n", 
-							std::chrono::duration_cast<std::chrono::milliseconds>(end-begin).count());
+	printf("The runtime of Cycle Canceling algorithm id %lld ms.\n", total_time);
+	printf("Summary:\n(%d,%d,%d,%lld)\n", countNodes(g), countArcs(g), cs.totalCost<int>(), total_time);
 
 	/* Uncomment the following code to display the whole graph */
 	/* Printing the network to standard output */
