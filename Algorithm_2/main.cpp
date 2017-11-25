@@ -88,10 +88,10 @@ int main(){
     fscanf(fp, "%d %d", &n, &m);
 //    scanf("%d%d", &n, &m);
     init();
-    for (i = 0; i < m; i++){
+    for (i = 0; i < m+2; i++){
         fscanf(fp, "%d%d%d%d", &u, &v, &cap, &cost);
         addEdge(u, v, cap, cost);
-        addEdge(v, u, cap, cost);
+//        addEdge(v, u, cap, cost);
     }
 //    addEdge(0, 1, 2, 0);
 //    addEdge(n, n+1, 2, 0);
