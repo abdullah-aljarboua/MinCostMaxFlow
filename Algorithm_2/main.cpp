@@ -4,6 +4,8 @@
 #include <cmath>
 #include <algorithm>
 #include <fstream>
+#include <chrono>
+
 #define MAXN 1000003
 #define MAXM 40000004
 using namespace std;
@@ -76,14 +78,18 @@ int minCostMaxflow(int st, int en, int &cost){
     }
     return flow;
 }
-int main(){
+int main(int argc, char** argv){
+	if(argc < 2){
+		perror("Usage:\n\t./a.out <input file>\n");
+		exit(-1);
+	}
     FILE *fp;
-    int i, j, k, cost, u, v, cap, source, sink, supply;
-    char filename[] = "/Users/peis/Google-Drive/Course2017Fall/CS260/Project/Data_Alg2/New_netgen_8_17_1.ini";
+    int i, cost, u, v, cap, source, sink, supply;
+    char* filename = argv[1];
     if((fp = fopen(filename,"r")) == NULL) //判断文件是否存在及可读
     {
         printf("error!");
-        return NULL;
+        return 0;
     }
     fscanf(fp, "%d %d", &n, &m);
     fscanf(fp, "%d%d%d", &source, &sink, &supply);
@@ -98,11 +104,13 @@ int main(){
     addEdge(sink, sink+1, supply, 0);
     cost = 0;
 
-    clock_t start, finish;
-    start = clock();
+    auto begin = std::chrono::high_resolution_clock::now();
     minCostMaxflow(0, sink+1, cost);
-    finish = clock();
-    printf( "Time: %f\n", (double)(finish - start)/CLOCKS_PER_SEC);
+    auto end = std::chrono::high_resolution_clock::now();
+    long long total_time = std::chrono::duration_cast<std::chrono::milliseconds>(end-begin).count();
+
+    printf( "Time: %lld milliseconds\n", total_time);
     printf("Cost: %d\n", cost);
+    printf("(%d,%d,%d,%lld)\n", n, m, cost, total_time);
     return 0;
 }
