@@ -7,7 +7,7 @@
 #include <chrono>
 
 #define MAXN 1000003
-#define MAXM 40000004
+#define MAXM 4000004
 using namespace std;
 const int INF = 0x3f3f3f3f;
 struct EDGE{
