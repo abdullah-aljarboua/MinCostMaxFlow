@@ -65,41 +65,25 @@ end
 
 x = alg_1_noOptimization(1:num_samples:length(alg_1_noOptimization), 1);
 figure(1)
-plot(x, alg_1_noOptimization_ave)
+plot(x, alg_1_theoretical)
 xlabel('Problem Size')
-ylabel('Time (s)')
+ylabel('Theoratical')
 title('Time vs. Problem Size')
 hold on
-plot(x, alg_2_noOptimization_ave)
-legend('Cycle Canceling', 'Extended Shortest Augmenting Path')
+yyaxis right
+ylabel('Experiment Time (s)')
+plot(x, alg_1_noOptimization_ave)
+legend('Theoretical', 'Experimental')
 grid on
 %%
 figure(2)
-semilogx(x, alg_1_noOptimization_ave)
-xlabel('log(Problem Size)')
-ylabel('Time (s)')
-title('Time vs. Problem Size')
-hold on
-semilogx(x, alg_2_noOptimization_ave)
-legend('Cycle Canceling', 'Extended Shortest Augmenting Path')
-grid on
-%%
-figure(3)
-plot(x, alg_1_Ofast_ave)
+plot(x, alg_1_theoretical)
 xlabel('Problem Size')
-ylabel('Time (s)')
-title('O-Fast Optimization')
+ylabel('Theoratical')
+title('Time vs. Problem Size - O3 Optimization')
 hold on
-plot(x, alg_2_Ofast_ave)
-legend('Cycle Canceling', 'Extended Shortest Augmenting Path')
-grid on
-%%
-figure(4)
+yyaxis right
+ylabel('Experiment Time (s)')
 plot(x, alg_1_O3_ave)
-xlabel('Problem Size')
-ylabel('Time (s)')
-title('O-3 Optimization')
-hold on
-plot(x, alg_2_O3_ave)
-legend('Cycle Canceling', 'Extended Shortest Augmenting Path')
+legend('Theoretical', 'Experimental')
 grid on
