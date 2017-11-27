@@ -1,0 +1,605 @@
+./a.out data/netgen_8_08_1.ini
+
+A digraph is read from data/netgen_8_08_1.ini.
+Number of nodes: 256
+Number of arcs: 1024
+Running Cycle Canceling...
+Total flow cost: 56285
+
+The runtime of Cycle Canceling algorithm id 43 ms.
+Summary:
+(256,1024,56285,43)
+./a.out data/netgen_8_08_2.ini
+
+A digraph is read from data/netgen_8_08_2.ini.
+Number of nodes: 256
+Number of arcs: 1024
+Running Cycle Canceling...
+Total flow cost: 11281
+
+The runtime of Cycle Canceling algorithm id 31 ms.
+Summary:
+(256,1024,11281,31)
+./a.out data/netgen_8_08_3.ini
+
+A digraph is read from data/netgen_8_08_3.ini.
+Number of nodes: 256
+Number of arcs: 1024
+Running Cycle Canceling...
+Total flow cost: 17966
+
+The runtime of Cycle Canceling algorithm id 35 ms.
+Summary:
+(256,1024,17966,35)
+./a.out data/netgen_8_08_4.ini
+
+A digraph is read from data/netgen_8_08_4.ini.
+Number of nodes: 256
+Number of arcs: 1024
+Running Cycle Canceling...
+Total flow cost: 17426
+
+The runtime of Cycle Canceling algorithm id 29 ms.
+Summary:
+(256,1024,17426,29)
+./a.out data/netgen_8_08_5.ini
+
+A digraph is read from data/netgen_8_08_5.ini.
+Number of nodes: 256
+Number of arcs: 1024
+Running Cycle Canceling...
+Total flow cost: 8768
+
+The runtime of Cycle Canceling algorithm id 26 ms.
+Summary:
+(256,1024,8768,26)
+./a.out data/netgen_8_09_1.ini
+
+A digraph is read from data/netgen_8_09_1.ini.
+Number of nodes: 512
+Number of arcs: 2048
+Running Cycle Canceling...
+Total flow cost: 248383
+
+The runtime of Cycle Canceling algorithm id 146 ms.
+Summary:
+(512,2048,248383,146)
+./a.out data/netgen_8_09_2.ini
+
+A digraph is read from data/netgen_8_09_2.ini.
+Number of nodes: 512
+Number of arcs: 2048
+Running Cycle Canceling...
+Total flow cost: 75385
+
+The runtime of Cycle Canceling algorithm id 116 ms.
+Summary:
+(512,2048,75385,116)
+./a.out data/netgen_8_09_3.ini
+
+A digraph is read from data/netgen_8_09_3.ini.
+Number of nodes: 512
+Number of arcs: 2048
+Running Cycle Canceling...
+Total flow cost: 17226
+
+The runtime of Cycle Canceling algorithm id 68 ms.
+Summary:
+(512,2048,17226,68)
+./a.out data/netgen_8_09_4.ini
+
+A digraph is read from data/netgen_8_09_4.ini.
+Number of nodes: 512
+Number of arcs: 2048
+Running Cycle Canceling...
+Total flow cost: 137308
+
+The runtime of Cycle Canceling algorithm id 114 ms.
+Summary:
+(512,2048,137308,114)
+./a.out data/netgen_8_09_5.ini
+
+A digraph is read from data/netgen_8_09_5.ini.
+Number of nodes: 512
+Number of arcs: 2048
+Running Cycle Canceling...
+Total flow cost: 47571
+
+The runtime of Cycle Canceling algorithm id 93 ms.
+Summary:
+(512,2048,47571,93)
+./a.out data/netgen_8_10_1.ini
+
+A digraph is read from data/netgen_8_10_1.ini.
+Number of nodes: 1024
+Number of arcs: 4096
+Running Cycle Canceling...
+Total flow cost: 177410
+
+The runtime of Cycle Canceling algorithm id 300 ms.
+Summary:
+(1024,4096,177410,300)
+./a.out data/netgen_8_10_2.ini
+
+A digraph is read from data/netgen_8_10_2.ini.
+Number of nodes: 1024
+Number of arcs: 4096
+Running Cycle Canceling...
+Total flow cost: 78745
+
+The runtime of Cycle Canceling algorithm id 191 ms.
+Summary:
+(1024,4096,78745,191)
+./a.out data/netgen_8_10_3.ini
+
+A digraph is read from data/netgen_8_10_3.ini.
+Number of nodes: 1024
+Number of arcs: 4096
+Running Cycle Canceling...
+Total flow cost: 260354
+
+The runtime of Cycle Canceling algorithm id 315 ms.
+Summary:
+(1024,4096,260354,315)
+./a.out data/netgen_8_10_4.ini
+
+A digraph is read from data/netgen_8_10_4.ini.
+Number of nodes: 1024
+Number of arcs: 4096
+Running Cycle Canceling...
+Total flow cost: 194324
+
+The runtime of Cycle Canceling algorithm id 281 ms.
+Summary:
+(1024,4096,194324,281)
+./a.out data/netgen_8_10_5.ini
+
+A digraph is read from data/netgen_8_10_5.ini.
+Number of nodes: 1024
+Number of arcs: 4096
+Running Cycle Canceling...
+Total flow cost: 52631
+
+The runtime of Cycle Canceling algorithm id 192 ms.
+Summary:
+(1024,4096,52631,192)
+./a.out data/netgen_8_11_1.ini
+
+A digraph is read from data/netgen_8_11_1.ini.
+Number of nodes: 2048
+Number of arcs: 8192
+Running Cycle Canceling...
+Total flow cost: 42087
+
+The runtime of Cycle Canceling algorithm id 452 ms.
+Summary:
+(2048,8192,42087,452)
+./a.out data/netgen_8_11_2.ini
+
+A digraph is read from data/netgen_8_11_2.ini.
+Number of nodes: 2048
+Number of arcs: 8192
+Running Cycle Canceling...
+Total flow cost: 791493
+
+The runtime of Cycle Canceling algorithm id 1043 ms.
+Summary:
+(2048,8192,791493,1043)
+./a.out data/netgen_8_11_3.ini
+
+A digraph is read from data/netgen_8_11_3.ini.
+Number of nodes: 2048
+Number of arcs: 8192
+Running Cycle Canceling...
+Total flow cost: 839115
+
+The runtime of Cycle Canceling algorithm id 1091 ms.
+Summary:
+(2048,8192,839115,1091)
+./a.out data/netgen_8_11_4.ini
+
+A digraph is read from data/netgen_8_11_4.ini.
+Number of nodes: 2048
+Number of arcs: 8192
+Running Cycle Canceling...
+Total flow cost: 288943
+
+The runtime of Cycle Canceling algorithm id 870 ms.
+Summary:
+(2048,8192,288943,870)
+./a.out data/netgen_8_11_5.ini
+
+A digraph is read from data/netgen_8_11_5.ini.
+Number of nodes: 2048
+Number of arcs: 8192
+Running Cycle Canceling...
+Total flow cost: 268470
+
+The runtime of Cycle Canceling algorithm id 565 ms.
+Summary:
+(2048,8192,268470,565)
+./a.out data/netgen_8_12_1.ini
+
+A digraph is read from data/netgen_8_12_1.ini.
+Number of nodes: 4096
+Number of arcs: 16384
+Running Cycle Canceling...
+Total flow cost: 1523828
+
+The runtime of Cycle Canceling algorithm id 2037 ms.
+Summary:
+(4096,16384,1523828,2037)
+./a.out data/netgen_8_12_2.ini
+
+A digraph is read from data/netgen_8_12_2.ini.
+Number of nodes: 4096
+Number of arcs: 16384
+Running Cycle Canceling...
+Total flow cost: 652237
+
+The runtime of Cycle Canceling algorithm id 2271 ms.
+Summary:
+(4096,16384,652237,2271)
+./a.out data/netgen_8_12_3.ini
+
+A digraph is read from data/netgen_8_12_3.ini.
+Number of nodes: 4096
+Number of arcs: 16384
+Running Cycle Canceling...
+Total flow cost: 1081065
+
+The runtime of Cycle Canceling algorithm id 2292 ms.
+Summary:
+(4096,16384,1081065,2292)
+./a.out data/netgen_8_12_4.ini
+
+A digraph is read from data/netgen_8_12_4.ini.
+Number of nodes: 4096
+Number of arcs: 16384
+Running Cycle Canceling...
+Total flow cost: 364661
+
+The runtime of Cycle Canceling algorithm id 1639 ms.
+Summary:
+(4096,16384,364661,1639)
+./a.out data/netgen_8_12_5.ini
+
+A digraph is read from data/netgen_8_12_5.ini.
+Number of nodes: 4096
+Number of arcs: 16384
+Running Cycle Canceling...
+Total flow cost: 1822
+
+The runtime of Cycle Canceling algorithm id 384 ms.
+Summary:
+(4096,16384,1822,384)
+./a.out data/netgen_8_13_1.ini
+
+A digraph is read from data/netgen_8_13_1.ini.
+Number of nodes: 8192
+Number of arcs: 32768
+Running Cycle Canceling...
+Total flow cost: 669695
+
+The runtime of Cycle Canceling algorithm id 4326 ms.
+Summary:
+(8192,32768,669695,4326)
+./a.out data/netgen_8_13_2.ini
+
+A digraph is read from data/netgen_8_13_2.ini.
+Number of nodes: 8192
+Number of arcs: 32768
+Running Cycle Canceling...
+Total flow cost: 212244
+
+The runtime of Cycle Canceling algorithm id 3185 ms.
+Summary:
+(8192,32768,212244,3185)
+./a.out data/netgen_8_13_3.ini
+
+A digraph is read from data/netgen_8_13_3.ini.
+Number of nodes: 8192
+Number of arcs: 32768
+Running Cycle Canceling...
+Total flow cost: 1263716
+
+The runtime of Cycle Canceling algorithm id 4742 ms.
+Summary:
+(8192,32768,1263716,4742)
+./a.out data/netgen_8_13_4.ini
+
+A digraph is read from data/netgen_8_13_4.ini.
+Number of nodes: 8192
+Number of arcs: 32768
+Running Cycle Canceling...
+Total flow cost: 538260
+
+The runtime of Cycle Canceling algorithm id 4376 ms.
+Summary:
+(8192,32768,538260,4376)
+./a.out data/netgen_8_13_5.ini
+
+A digraph is read from data/netgen_8_13_5.ini.
+Number of nodes: 8192
+Number of arcs: 32768
+Running Cycle Canceling...
+Total flow cost: 630552
+
+The runtime of Cycle Canceling algorithm id 4318 ms.
+Summary:
+(8192,32768,630552,4318)
+./a.out data/netgen_8_14_1.ini
+
+A digraph is read from data/netgen_8_14_1.ini.
+Number of nodes: 16384
+Number of arcs: 65536
+Running Cycle Canceling...
+Total flow cost: 1015558
+
+The runtime of Cycle Canceling algorithm id 11535 ms.
+Summary:
+(16384,65536,1015558,11535)
+./a.out data/netgen_8_14_2.ini
+
+A digraph is read from data/netgen_8_14_2.ini.
+Number of nodes: 16384
+Number of arcs: 65536
+Running Cycle Canceling...
+Total flow cost: 968397
+
+The runtime of Cycle Canceling algorithm id 8545 ms.
+Summary:
+(16384,65536,968397,8545)
+./a.out data/netgen_8_14_3.ini
+
+A digraph is read from data/netgen_8_14_3.ini.
+Number of nodes: 16384
+Number of arcs: 65536
+Running Cycle Canceling...
+Total flow cost: 800764
+
+The runtime of Cycle Canceling algorithm id 11406 ms.
+Summary:
+(16384,65536,800764,11406)
+./a.out data/netgen_8_14_4.ini
+
+A digraph is read from data/netgen_8_14_4.ini.
+Number of nodes: 16384
+Number of arcs: 65536
+Running Cycle Canceling...
+Total flow cost: 9209
+
+The runtime of Cycle Canceling algorithm id 2490 ms.
+Summary:
+(16384,65536,9209,2490)
+./a.out data/netgen_8_14_5.ini
+
+A digraph is read from data/netgen_8_14_5.ini.
+Number of nodes: 16384
+Number of arcs: 65536
+Running Cycle Canceling...
+Total flow cost: 769518
+
+The runtime of Cycle Canceling algorithm id 11560 ms.
+Summary:
+(16384,65536,769518,11560)
+./a.out data/netgen_8_15_1.ini
+
+A digraph is read from data/netgen_8_15_1.ini.
+Number of nodes: 32768
+Number of arcs: 131072
+Running Cycle Canceling...
+Total flow cost: 47249
+
+The runtime of Cycle Canceling algorithm id 14374 ms.
+Summary:
+(32768,131072,47249,14374)
+./a.out data/netgen_8_15_2.ini
+
+A digraph is read from data/netgen_8_15_2.ini.
+Number of nodes: 32768
+Number of arcs: 131072
+Running Cycle Canceling...
+Total flow cost: 1077713
+
+The runtime of Cycle Canceling algorithm id 30284 ms.
+Summary:
+(32768,131072,1077713,30284)
+./a.out data/netgen_8_15_3.ini
+
+A digraph is read from data/netgen_8_15_3.ini.
+Number of nodes: 32768
+Number of arcs: 131072
+Running Cycle Canceling...
+Total flow cost: 2965992
+
+The runtime of Cycle Canceling algorithm id 34128 ms.
+Summary:
+(32768,131072,2965992,34128)
+./a.out data/netgen_8_15_4.ini
+
+A digraph is read from data/netgen_8_15_4.ini.
+Number of nodes: 32768
+Number of arcs: 131072
+Running Cycle Canceling...
+Total flow cost: 1557301
+
+The runtime of Cycle Canceling algorithm id 32327 ms.
+Summary:
+(32768,131072,1557301,32327)
+./a.out data/netgen_8_15_5.ini
+
+A digraph is read from data/netgen_8_15_5.ini.
+Number of nodes: 32768
+Number of arcs: 131072
+Running Cycle Canceling...
+Total flow cost: 549368
+
+The runtime of Cycle Canceling algorithm id 18916 ms.
+Summary:
+(32768,131072,549368,18916)
+./a.out data/netgen_8_16_1.ini
+
+A digraph is read from data/netgen_8_16_1.ini.
+Number of nodes: 65536
+Number of arcs: 262144
+Running Cycle Canceling...
+Total flow cost: 412117
+
+The runtime of Cycle Canceling algorithm id 62114 ms.
+Summary:
+(65536,262144,412117,62114)
+./a.out data/netgen_8_16_2.ini
+
+A digraph is read from data/netgen_8_16_2.ini.
+Number of nodes: 65536
+Number of arcs: 262144
+Running Cycle Canceling...
+Total flow cost: 1437544
+
+The runtime of Cycle Canceling algorithm id 71034 ms.
+Summary:
+(65536,262144,1437544,71034)
+./a.out data/netgen_8_16_3.ini
+
+A digraph is read from data/netgen_8_16_3.ini.
+Number of nodes: 65536
+Number of arcs: 262144
+Running Cycle Canceling...
+Total flow cost: 1144968
+
+The runtime of Cycle Canceling algorithm id 53541 ms.
+Summary:
+(65536,262144,1144968,53541)
+./a.out data/netgen_8_16_4.ini
+
+A digraph is read from data/netgen_8_16_4.ini.
+Number of nodes: 65536
+Number of arcs: 262144
+Running Cycle Canceling...
+Total flow cost: 2356955
+
+The runtime of Cycle Canceling algorithm id 83662 ms.
+Summary:
+(65536,262144,2356955,83662)
+./a.out data/netgen_8_16_5.ini
+
+A digraph is read from data/netgen_8_16_5.ini.
+Number of nodes: 65536
+Number of arcs: 262144
+Running Cycle Canceling...
+Total flow cost: 1327353
+
+The runtime of Cycle Canceling algorithm id 64600 ms.
+Summary:
+(65536,262144,1327353,64600)
+./a.out data/netgen_8_17_1.ini
+
+A digraph is read from data/netgen_8_17_1.ini.
+Number of nodes: 131072
+Number of arcs: 524288
+Running Cycle Canceling...
+Total flow cost: 1760186
+
+The runtime of Cycle Canceling algorithm id 210254 ms.
+Summary:
+(131072,524288,1760186,210254)
+./a.out data/netgen_8_17_2.ini
+
+A digraph is read from data/netgen_8_17_2.ini.
+Number of nodes: 131072
+Number of arcs: 524288
+Running Cycle Canceling...
+Total flow cost: 2849928
+
+The runtime of Cycle Canceling algorithm id 213252 ms.
+Summary:
+(131072,524288,2849928,213252)
+./a.out data/netgen_8_17_3.ini
+
+A digraph is read from data/netgen_8_17_3.ini.
+Number of nodes: 131072
+Number of arcs: 524288
+Running Cycle Canceling...
+Total flow cost: 643173
+
+The runtime of Cycle Canceling algorithm id 132784 ms.
+Summary:
+(131072,524288,643173,132784)
+./a.out data/netgen_8_17_4.ini
+
+A digraph is read from data/netgen_8_17_4.ini.
+Number of nodes: 131072
+Number of arcs: 524288
+Running Cycle Canceling...
+Total flow cost: 1739206
+
+The runtime of Cycle Canceling algorithm id 137334 ms.
+Summary:
+(131072,524288,1739206,137334)
+./a.out data/netgen_8_17_5.ini
+
+A digraph is read from data/netgen_8_17_5.ini.
+Number of nodes: 131072
+Number of arcs: 524288
+Running Cycle Canceling...
+Total flow cost: 1383905
+
+The runtime of Cycle Canceling algorithm id 206129 ms.
+Summary:
+(131072,524288,1383905,206129)
+./a.out data/netgen_8_18_1.ini
+
+A digraph is read from data/netgen_8_18_1.ini.
+Number of nodes: 262144
+Number of arcs: 1048576
+Running Cycle Canceling...
+Total flow cost: 12797633
+
+The runtime of Cycle Canceling algorithm id 941430 ms.
+Summary:
+(262144,1048576,12797633,941430)
+./a.out data/netgen_8_18_2.ini
+
+A digraph is read from data/netgen_8_18_2.ini.
+Number of nodes: 262144
+Number of arcs: 1048576
+Running Cycle Canceling...
+Total flow cost: 7720105
+
+The runtime of Cycle Canceling algorithm id 904840 ms.
+Summary:
+(262144,1048576,7720105,904840)
+./a.out data/netgen_8_18_3.ini
+
+A digraph is read from data/netgen_8_18_3.ini.
+Number of nodes: 262144
+Number of arcs: 1048576
+Running Cycle Canceling...
+Total flow cost: 6062946
+
+The runtime of Cycle Canceling algorithm id 915442 ms.
+Summary:
+(262144,1048576,6062946,915442)
+./a.out data/netgen_8_18_4.ini
+
+A digraph is read from data/netgen_8_18_4.ini.
+Number of nodes: 262144
+Number of arcs: 1048576
+Running Cycle Canceling...
+Total flow cost: 5175257
+
+The runtime of Cycle Canceling algorithm id 675437 ms.
+Summary:
+(262144,1048576,5175257,675437)
+./a.out data/netgen_8_18_5.ini
+
+A digraph is read from data/netgen_8_18_5.ini.
+Number of nodes: 262144
+Number of arcs: 1048576
+Running Cycle Canceling...
+Total flow cost: 10735360
+
+The runtime of Cycle Canceling algorithm id 696506 ms.
+Summary:
+(262144,1048576,10735360,696506)

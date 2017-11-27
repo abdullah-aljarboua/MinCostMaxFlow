@@ -1,0 +1,165 @@
+Time: 5 milliseconds
+Cost: 56285
+(256,1024,56285,5)
+Time: 1 milliseconds
+Cost: 11281
+(256,1024,11281,1)
+Time: 1 milliseconds
+Cost: 17966
+(256,1024,17966,1)
+Time: 1 milliseconds
+Cost: 17426
+(256,1024,17426,1)
+Time: 0 milliseconds
+Cost: 8768
+(256,1024,8768,0)
+Time: 42 milliseconds
+Cost: 248383
+(512,2048,248383,42)
+Time: 13 milliseconds
+Cost: 75385
+(512,2048,75385,13)
+Time: 3 milliseconds
+Cost: 17226
+(512,2048,17226,3)
+Time: 24 milliseconds
+Cost: 137308
+(512,2048,137308,24)
+Time: 14 milliseconds
+Cost: 47571
+(512,2048,47571,14)
+Time: 79 milliseconds
+Cost: 177410
+(1024,4096,177410,79)
+Time: 48 milliseconds
+Cost: 78745
+(1024,4096,78745,48)
+Time: 102 milliseconds
+Cost: 260354
+(1024,4096,260354,102)
+Time: 91 milliseconds
+Cost: 194324
+(1024,4096,194324,91)
+Time: 24 milliseconds
+Cost: 52631
+(1024,4096,52631,24)
+Time: 62 milliseconds
+Cost: 42087
+(2048,8192,42087,62)
+Time: 633 milliseconds
+Cost: 791493
+(2048,8192,791493,633)
+Time: 623 milliseconds
+Cost: 839115
+(2048,8192,839115,623)
+Time: 304 milliseconds
+Cost: 288943
+(2048,8192,288943,304)
+Time: 294 milliseconds
+Cost: 268470
+(2048,8192,268470,294)
+Time: 2333 milliseconds
+Cost: 1523828
+(4096,16384,1523828,2333)
+Time: 1379 milliseconds
+Cost: 652237
+(4096,16384,652237,1379)
+Time: 2042 milliseconds
+Cost: 1081065
+(4096,16384,1081065,2042)
+Time: 1062 milliseconds
+Cost: 364661
+(4096,16384,364661,1062)
+Time: 8 milliseconds
+Cost: 1822
+(4096,16384,1822,8)
+Time: 2837 milliseconds
+Cost: 669695
+(8192,32768,669695,2837)
+Time: 1344 milliseconds
+Cost: 212244
+(8192,32768,212244,1344)
+Time: 4616 milliseconds
+Cost: 1263716
+(8192,32768,1263716,4616)
+Time: 2804 milliseconds
+Cost: 538260
+(8192,32768,538260,2804)
+Time: 3031 milliseconds
+Cost: 630552
+(8192,32768,630552,3031)
+Time: 8303 milliseconds
+Cost: 1015558
+(16384,65536,1015558,8303)
+Time: 8381 milliseconds
+Cost: 968397
+(16384,65536,968397,8381)
+Time: 7993 milliseconds
+Cost: 800764
+(16384,65536,800764,7993)
+Time: 100 milliseconds
+Cost: 9209
+(16384,65536,9209,100)
+Time: 7753 milliseconds
+Cost: 769518
+(16384,65536,769518,7753)
+Time: 1765 milliseconds
+Cost: 47249
+(32768,131072,47249,1765)
+Time: 21426 milliseconds
+Cost: 1077713
+(32768,131072,1077713,21426)
+Time: 40564 milliseconds
+Cost: 2965992
+(32768,131072,2965992,40564)
+Time: 24889 milliseconds
+Cost: 1557301
+(32768,131072,1557301,24889)
+Time: 12288 milliseconds
+Cost: 549368
+(32768,131072,549368,12288)
+Time: 31206 milliseconds
+Cost: 412117
+(65536,262144,412117,31206)
+Time: 61532 milliseconds
+Cost: 1437544
+(65536,262144,1437544,61532)
+Time: 58455 milliseconds
+Cost: 1144968
+(65536,262144,1144968,58455)
+Time: 86570 milliseconds
+Cost: 2356955
+(65536,262144,2356955,86570)
+Time: 63004 milliseconds
+Cost: 1327353
+(65536,262144,1327353,63004)
+Time: 257126 milliseconds
+Cost: 1760186
+(131072,524288,1760186,257126)
+Time: 316837 milliseconds
+Cost: 2849928
+(131072,524288,2849928,316837)
+Time: 113504 milliseconds
+Cost: 643173
+(131072,524288,643173,113504)
+Time: 244602 milliseconds
+Cost: 1739206
+(131072,524288,1739206,244602)
+Time: 226238 milliseconds
+Cost: 1383905
+(131072,524288,1383905,226238)
+Time: 2524814 milliseconds
+Cost: 12797633
+(262144,1048576,12797633,2524814)
+Time: 1911320 milliseconds
+Cost: 7720105
+(262144,1048576,7720105,1911320)
+Time: 1754705 milliseconds
+Cost: 6062946
+(262144,1048576,6062946,1754705)
+Time: 1709149 milliseconds
+Cost: 5175257
+(262144,1048576,5175257,1709149)
+Time: 2541797 milliseconds
+Cost: 10735360
+(262144,1048576,10735360,2541797)
