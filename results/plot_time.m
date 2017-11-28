@@ -62,28 +62,113 @@ for i = 1:length(alg_2_Ofast)/num_samples
 end
 
 
-
+%% begin plot
 x = alg_1_noOptimization(1:num_samples:length(alg_1_noOptimization), 1);
+% x = log2(x);
 figure(1)
 plot(x, alg_1_theoretical)
-xlabel('Problem Size')
+xlabel('Problem Size (n: Number of Nodes = x)')
 ylabel('Theoratical')
-title('Time vs. Problem Size')
+title('Time vs. Problem Size of Algorithm1 without optimization')
 hold on
 yyaxis right
 ylabel('Experiment Time (s)')
 plot(x, alg_1_noOptimization_ave)
-legend('Theoretical', 'Experimental')
+legend('Theoretical', 'Experimental', 'Location', 'northwest')
 grid on
+set(findall(gcf, '-property', 'FontSize'), 'FontSize', 15)
 %%
 figure(2)
 plot(x, alg_1_theoretical)
-xlabel('Problem Size')
+xlabel('Problem Size (n: Number of Nodes = x)')
 ylabel('Theoratical')
-title('Time vs. Problem Size - O3 Optimization')
+title('Time vs. Problem Size of Algorithm1 with O3 Optimization')
 hold on
 yyaxis right
 ylabel('Experiment Time (s)')
 plot(x, alg_1_O3_ave)
-legend('Theoretical', 'Experimental')
+legend('Theoretical', 'Experimental', 'Location', 'northwest')
 grid on
+set(findall(gcf, '-property', 'FontSize'), 'FontSize', 15)
+%%
+figure(3)
+plot(x, alg_1_theoretical)
+xlabel('Problem Size (n: Number of Nodes = x)')
+ylabel('Theoratical')
+title('Time vs. Problem Size of Algorithm1 with OFast Optimization')
+hold on
+yyaxis right
+ylabel('Experiment Time (s)')
+plot(x, alg_1_Ofast_ave)
+legend('Theoretical', 'Experimental', 'Location', 'northwest')
+grid on
+set(findall(gcf, '-property', 'FontSize'), 'FontSize', 15)
+%%
+figure(4)
+plot(x, alg_1_theoretical)
+xlabel('Problem Size (n: Number of Nodes = x)')
+ylabel('Theoratical')
+title('Time vs. Problem Size of Algorithm1')
+hold on
+yyaxis right
+ylabel('Experiment Time (s)')
+plot(x, alg_1_noOptimization_ave)
+plot(x, alg_1_O3_ave)
+plot(x, alg_1_Ofast_ave)
+legend('Theoretical', 'No Optimization', 'O3', 'OFast', 'Location', 'northwest')
+grid on
+set(findall(gcf, '-property', 'FontSize'), 'FontSize', 15)
+%%
+figure(5)
+plot(x, alg_2_theoretical)
+xlabel('Problem Size (n: Number of Nodes = x)')
+ylabel('Theoratical')
+title('Time vs. Problem Size of Algorithm2 without optimization')
+hold on
+yyaxis right
+ylabel('Experiment Time (s)')
+plot(x, alg_2_noOptimization_ave)
+legend('Theoretical', 'Experimental', 'Location', 'northwest')
+grid on
+set(findall(gcf, '-property', 'FontSize'), 'FontSize', 15)
+%%
+figure(6)
+plot(x, alg_2_theoretical)
+xlabel('Problem Size (n: Number of Nodes = x)')
+ylabel('Theoratical')
+title('Time vs. Problem Size of Algorithm2 with O3 Optimization')
+hold on
+yyaxis right
+ylabel('Experiment Time (s)')
+plot(x, alg_2_O3_ave)
+legend('Theoretical', 'Experimental', 'Location', 'northwest')
+grid on
+set(findall(gcf, '-property', 'FontSize'), 'FontSize', 15)
+%%
+figure(7)
+plot(x, alg_2_theoretical)
+xlabel('Problem Size (n: Number of Nodes = x)')
+ylabel('Theoratical')
+title('Time vs. Problem Size of Algorithm2 with OFast Optimization')
+hold on
+yyaxis right
+ylabel('Experiment Time (s)')
+plot(x, alg_2_Ofast_ave)
+legend('Theoretical', 'Experimental', 'Location', 'northwest')
+grid on
+set(findall(gcf, '-property', 'FontSize'), 'FontSize', 15)
+%%
+figure(8)
+plot(x, alg_2_theoretical)
+xlabel('Problem Size (n: Number of Nodes = x)')
+ylabel('Theoratical')
+title('Time vs. Problem Size of Algorithm2')
+hold on
+yyaxis right
+ylabel('Experiment Time (s)')
+plot(x, alg_2_noOptimization_ave)
+plot(x, alg_2_O3_ave)
+plot(x, alg_2_Ofast_ave)
+legend('Theoretical', 'No Optimization', 'O3', 'OFast', 'Location', 'northwest')
+grid on
+set(findall(gcf, '-property', 'FontSize'), 'FontSize', 15)
